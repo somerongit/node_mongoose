@@ -1,0 +1,23 @@
+{
+  "name": "node_mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somerongit/node_mongoose.git"
+  },
+  "author": "Someron Bakuli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somerongit/node_mongoose/issues"
+  },
+  "homepage": "https://github.com/somerongit/node_mongoose#readme",
+  "dependencies": {
+    "mongoose": "^6.0.8"
+  }
+}
