@@ -15,7 +15,7 @@ connect.then((db) => {
     })
     .then((dish) => {
         console.log(dish);
-        return Dishes.find({});
+        return Dishes.find({}).exec();
     })
     .then((dishes) => {
         console.log(dishes);
